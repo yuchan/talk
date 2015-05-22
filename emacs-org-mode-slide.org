@@ -1,7 +1,7 @@
 #+TITLE: Org-Modeで作るスライドが便利過ぎる件
 #+AUTHOR: Yusuke Ohashi
 #+EMAIL: yusuke@junkpiano.me
-#+REVEAL_THEME: League
+#+REVEAL_THEME: league
 
 * Conclusion
 
