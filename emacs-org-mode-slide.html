@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Org-Modeで作るスライドが便利過ぎる件</title>
+<meta name="author" content="(Yusuke Ohashi)"/>
+
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="./reveal.js/css/theme/League.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Org-Modeで作るスライドが便利過ぎる件</h1>
+<h2>Yusuke Ohashi</h2>
+<h2><a href="mailto:yusuke@junkpiano.me">yusuke@junkpiano.me</a></h2>
+<h2></h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-sec-1">1. Conclusion</a></li>
+<li><a href="#/slide-sec-2">2. What's Org-Mode？</a>
+<ul>
+<li><a href="#/slide-sec-2-1">2.1. Org-Mode is &#x2026;</a></li>
+<li><a href="#/slide-sec-2-2">2.2. Org-Mode can &#x2026;</a></li>
+</ul>
+</li>
+<li><a href="#/slide-sec-3">3. Why do you use Emacs now?</a>
+<ul>
+<li><a href="#/slide-sec-3-1">3.1. Seeing is Believing.</a></li>
+</ul>
+</li>
+<li><a href="#/slide-sec-4">4. Let's try Org-Mode!</a>
+<ul>
+<li><a href="#/slide-sec-4-1">4.1. Next my show</a></li>
+<li><a href="#/slide-sec-4-2">4.2. Any Question?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-sec-1">
+<h2 id="sec-1"><span class="section-number-2">1</span> Conclusion</h2>
+<ul>
+<li>5 minutes talk</li>
+<li>How to make a slide like this.</li>
+<li>こんな感じのスライドの作り方</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> What's Org-Mode？</h2>
+<ul>
+<li>Or Do you know Org-mode? Have you ever heard about it?</li>
+
+</ul>
+
+</section>
+<section id="slide-sec-2-1">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Org-Mode is &#x2026;</h3>
+<ul>
+<li>Emacsのメジャーモード</li>
+<li>万能のメモツール？</li>
+
+</ul>
+
+</section>
+<section id="slide-sec-2-2">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Org-Mode can &#x2026;</h3>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Emacs</td>
+<td class="left">Evernote</td>
+</tr>
+
+<tr>
+<td class="left">Text Editing</td>
+<td class="left">OK</td>
+<td class="left">OK</td>
+</tr>
+
+<tr>
+<td class="left">Todo Management</td>
+<td class="left">OK</td>
+<td class="left">OK</td>
+</tr>
+
+<tr>
+<td class="left">Sync</td>
+<td class="left">OK(Github等)</td>
+<td class="left">OK</td>
+</tr>
+
+<tr>
+<td class="left">Devlopment</td>
+<td class="left">OK</td>
+<td class="left">NG</td>
+</tr>
+
+<tr>
+<td class="left">Version Control</td>
+<td class="left">OK</td>
+<td class="left">NG</td>
+</tr>
+
+<tr>
+<td class="left">Customise</td>
+<td class="left">OK</td>
+<td class="left">NG</td>
+</tr>
+
+<tr>
+<td class="left">CUI</td>
+<td class="left">OK</td>
+<td class="left">NG</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Win</td>
+<td class="left">Lose</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+<section>
+<section id="slide-sec-3">
+<h2 id="sec-3"><span class="section-number-2">3</span> Why do you use Emacs now?</h2>
+<ul>
+<li>Don't ask me!!</li>
+<li>Emacs is environment.</li>
+
+</ul>
+
+</section>
+<section id="slide-sec-3-1">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Seeing is Believing.</h3>
+<ul>
+<li>百聞は一見に如かず</li>
+<li>DEMO</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-4">
+<h2 id="sec-4"><span class="section-number-2">4</span> Let's try Org-Mode!</h2>
+<p>
+"絶対にEmacsを使いこなしてやるんだ、という強い気持ちが、これからの戦いには非常に重要になって来ると、思いますね!"
+</p>
+
+</section>
+<section id="slide-sec-4-1">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Next my show</h3>
+<ul>
+<li>clojure?</li>
+
+</ul>
+
+</section>
+<section id="slide-sec-4-2">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Any Question?</h3>
+</section>
+</section>
+</div>
+</div>
+
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: true,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+</script>
+</body>
+</html>

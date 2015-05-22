@@ -1,0 +1,5 @@
+#+TITLE : Template Title
+#+AUTHOR: Yusuke Ohashi
+#+EMAIL: yusuke@junkpiano.me
+#+REVEAL_THEME: League
+
