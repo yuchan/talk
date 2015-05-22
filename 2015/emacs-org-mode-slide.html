@@ -7,7 +7,7 @@
 <meta name="author" content="(Yusuke Ohashi)"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/league.css" id="theme"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/solarized.css" id="theme"/>
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -61,6 +61,7 @@
 <section id="slide-sec-1">
 <h2 id="sec-1"><span class="section-number-2">1</span> Conclusion</h2>
 <ul>
+<li>ex Emacs user</li>
 <li>5 minutes talk</li>
 <li>How to make a slide like this.</li>
 <li>こんな感じのスライドの作り方</li>
@@ -99,58 +100,59 @@
 
 <col  class="left" />
 </colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">Emacs</th>
+<th scope="col" class="left">Evernote</th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td class="left">&#xa0;</td>
-<td class="left">Emacs</td>
-<td class="left">Evernote</td>
-</tr>
-
-<tr>
 <td class="left">Text Editing</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">OK</td>
 </tr>
 
 <tr>
 <td class="left">Todo Management</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">OK</td>
 </tr>
 
 <tr>
 <td class="left">Sync</td>
-<td class="left">OK(Github等)</td>
+<td class="left"><b>OK(Github等)</b></td>
 <td class="left">OK</td>
 </tr>
 
 <tr>
 <td class="left">Devlopment</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">NG</td>
 </tr>
 
 <tr>
 <td class="left">Version Control</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">NG</td>
 </tr>
 
 <tr>
 <td class="left">Customise</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">NG</td>
 </tr>
 
 <tr>
 <td class="left">CUI</td>
-<td class="left">OK</td>
+<td class="left"><b>OK</b></td>
 <td class="left">NG</td>
 </tr>
 
 <tr>
 <td class="left">&#xa0;</td>
-<td class="left">Win</td>
+<td class="left"><b>Win</b></td>
 <td class="left">Lose</td>
 </tr>
 </tbody>
@@ -182,9 +184,11 @@
 <section>
 <section id="slide-sec-4">
 <h2 id="sec-4"><span class="section-number-2">4</span> Let's try Org-Mode!</h2>
+<blockquote nil>
 <p>
 "絶対にEmacsを使いこなしてやるんだ、という強い気持ちが、これからの戦いには非常に重要になって来ると、思いますね!"
 </p>
+</blockquote>
 
 </section>
 <section id="slide-sec-4-1">
@@ -220,7 +224,7 @@ keyboard: true,
 overview: true,
 
 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 transitionSpeed: 'default',
 multiplex: {
     secret: '', // null if client

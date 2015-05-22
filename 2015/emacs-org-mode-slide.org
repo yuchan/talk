@@ -1,11 +1,13 @@
 #+TITLE: Org-Modeで作るスライドが便利過ぎる件
 #+AUTHOR: Yusuke Ohashi
 #+EMAIL: yusuke@junkpiano.me
-#+REVEAL_THEME: league
+#+REVEAL_THEME: solarized
 #+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/
+#+REVEAL_TRANS: linear
 
 * Conclusion
 
+- ex Emacs user
 - 5 minutes talk
 - How to make a slide like this.
 - こんな感じのスライドの作り方
@@ -21,15 +23,16 @@
 
 ** Org-Mode can ...
 
-|                 | Emacs        | Evernote |
-| Text Editing    | OK           | OK       |
-| Todo Management | OK           | OK       |
-| Sync            | OK(Github等) | OK       |
-| Devlopment      | OK           | NG       |
-| Version Control | OK           | NG       |
-| Customise       | OK           | NG       |
-| CUI             | OK           | NG       |
-|                 | Win          | Lose     |
+|                 | Emacs          | Evernote |
+|-----------------+----------------+----------|
+| Text Editing    | *OK*           | OK       |
+| Todo Management | *OK*           | OK       |
+| Sync            | *OK(Github等)* | OK       |
+| Devlopment      | *OK*           | NG       |
+| Version Control | *OK*           | NG       |
+| Customise       | *OK*           | NG       |
+| CUI             | *OK*           | NG       |
+|                 | *Win*          | Lose     |
 
 
 * Why do you use Emacs now?
@@ -44,7 +47,9 @@
 
 * Let's try Org-Mode!
 
+#+BEGIN_QUOTE
 "絶対にEmacsを使いこなしてやるんだ、という強い気持ちが、これからの戦いには非常に重要になって来ると、思いますね!"
+#+END_QUOTE
 
 ** Next my show
 
