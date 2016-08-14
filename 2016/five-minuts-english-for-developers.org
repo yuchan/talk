@@ -1,0 +1,75 @@
+#+TITLE: Englishnize yourself in five minutes
+#+AUTHOR: Yusuke Ohashi
+#+EMAIL: Rakuten, Inc.
+#+REVEAL_THEME: black
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/
+#+REVEAL_TRANS: linear
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+* Agenda
+
+- English as working language
+- Find your own path
+- Transition to English
+
+* English as working language
+
+** English is getting more and more important
+
+#+BEGIN_QUOTE
+日本は大きなマーケットではありますけど，今後人口は縮小していきますし，大きいところに出ていくには英語ができないとダメです。
+#+END_QUOTE
+
+by miyagawa-san
+
+[[http://gihyo.jp/lifestyle/serial/01/survival_strategy_engineer/0003?page=2]]
+
+** English is scary
+
+This is 'problem'!
+
+* Find your own path
+
+Believe your strength.
+
+** know what they are
+
+- Problems they have
+- What they can
+- Roles thay are playing
+
+** know yourself
+
+- *What you can do for them*
+- your strength
+
+** Yes, you can
+
+- Be a *good problem solver*
+  - pragmatic and passionate
+
+* Transition to English from Japanese
+
+** Reading, Reading, Reading
+
+- reading skill is the most important
+- collect information
+
+** Observation
+
+- listen to people
+- watch people
+- enjoy people you work with
+
+** Mindset
+
+- hold your opinions.
+- focus on the important things
+- don't care about your language skill
+  - don't say "sorry for my poor English".
+- no 'special' stuffs required.
+
+** Prepare for Diversity
+
+* Thank you for your listening!
