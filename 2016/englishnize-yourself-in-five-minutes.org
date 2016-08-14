@@ -1,0 +1,62 @@
+#+TITLE: Englishnize yourself in five minutes
+#+AUTHOR: Yusuke Ohashi
+#+EMAIL: Rakuten, Inc.
+#+REVEAL_THEME: black
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/
+#+REVEAL_TRANS: linear
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+* Agenda
+
+- What I learned from my 1-year experience in the englishnized company
+
+* Things in common that fluent English speakers have
+
+** Study abroad experiences
+
+- This looks kind of cheating
+- Best way to acquire language skill
+
+** Environment
+
+#+BEGIN_QUOTE
+どこで差がついたのか。慢心、環境の違い、、
+#+END_QUOTE
+
+** Being Talented
+
+*Just...*
+
+- listening to Music
+- watching English news shows
+- watching Youtube
+- ...
+
+* I am not such a person
+
+* Then, How can I deal with English Environment?
+
+** English as second language
+
+- English is second language for a lot of people.
+
+** getting used to English-ish things
+
+- come to the office and listen to the sound around.
+
+** goal oriented
+
+- don't have to be perfectionist
+- learn English to reach your business goal
+
+** English as Tool
+
+- use English to get things done 
+- bridge between me and non-english native speakers
+
+** Don't be biased
+
+- forget rumors about global company that you've ever heard.
+
+* Thanks for your listening!
