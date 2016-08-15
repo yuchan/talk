@@ -4,16 +4,22 @@
 <meta charset="utf-8"/>
 <title>Englishnize yourself in five minutes</title>
 <meta name="author" content="(Yusuke Ohashi)"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/black.css" id="theme"/>
-<link rel="stylesheet" href=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/blood.css" id="theme"/>
+
+<link rel="stylesheet" href="../css/modification.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/css/zenburn.css"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
     if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/pdf.css';
+        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -21,125 +27,187 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide">
-<h1>Englishnize yourself in five minutes</h1>
-<h2>Yusuke Ohashi</h2>
-<h2><a href="mailto:Rakuten">Rakuten</a>, <a href="mailto:Inc.">Inc.</a></h2>
-<h2></h2>
+<section id="sec-title-slide"><h1 class="title">Englishnize yourself in five minutes</h1><h2 class="author">Yusuke Ohashi</h2><p class="date">Created: 2016-08-15 月 20:51</p>
 </section>
 
 <section>
 <section id="slide-orgheadline1">
-<h2 id="orgheadline1">Agenda</h2>
-<ul>
-<li>What I learned from my 1-year experience in the englishnized company</li>
+<h2 id="orgheadline1">Hello</h2>
 
-</ul>
+<div class="figure">
+<p><img src="http://jp.rakuten-static.com/1/bu/corp/global/im/news/rakuten-logo-global.jpg" alt="rakuten-logo-global.jpg" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://pbs.twimg.com/profile_images/473550724433858560/tuHsaI2U_400x400.png" alt="tuHsaI2U_400x400.png" width="280px" />
+</p>
+</div>
 
 </section>
 </section>
 <section>
-<section id="slide-orgheadline5">
-<h2 id="orgheadline5">Things in common that fluent English speakers have</h2>
-<div class="outline-text-2" id="text-orgheadline5">
-</div></section>
 <section id="slide-orgheadline2">
-<h3 id="orgheadline2">Study abroad experiences</h3>
-<ul>
-<li>This looks kind of cheating</li>
-<li>Best way to acquire language skill</li>
+<h2 id="orgheadline2">Agenda</h2>
+<div class="org-src-container">
 
-</ul>
+<pre><code class="swift" >let you = Developer(with:"Swift", lang:"JP")
+</code></pre>
+</div>
+
+<p>
+↓
+</p>
+<div class="org-src-container">
+
+<pre><code class="swift" >let you = Developer(with:"Swift", lang:"EN")
+</code></pre>
+</div>
 
 </section>
+</section>
+<section>
 <section id="slide-orgheadline3">
-<h3 id="orgheadline3">Environment</h3>
-<blockquote nil>
-<p>
-どこで差がついたのか。慢心、環境の違い、、
-</p>
-</blockquote>
+<h2 id="orgheadline3">Things in common that fluent English speakers have</h2>
+<div class="org-src-container">
+
+<pre><code class="swift" >enum FluentEnglishSpeakerType: String {
+    case studyAbroad = "rich"
+    case environment = "どこで差がついたのか(略"
+    case talented = "cheating"
+}
+</code></pre>
+</div>
 
 </section>
+</section>
+<section>
 <section id="slide-orgheadline4">
-<h3 id="orgheadline4">Being Talented</h3>
-<p>
-<b>Just&#x2026;</b>
-</p>
-
-<ul>
-<li>listening to Music</li>
-<li>watching English news shows</li>
-<li>watching Youtube</li>
-<li>&#x2026;</li>
-
-</ul>
+<h2 id="orgheadline4">I am not such a person</h2>
 
 </section>
 </section>
 <section>
+<section id="slide-orgheadline10">
+<h2 id="orgheadline10">Then, How can I deal with English Environment?</h2>
+<div class="org-src-container">
+
+<pre><code class="swift" >let english = you.language
+</code></pre>
+</div>
+
+</section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">English as Second Language</h3>
+<div class="org-src-container">
+
+<pre><code class="swift" >switch (english.firstLanguage) {
+    case japanese
+    case chinese
+    case thai
+    case korean
+    default:
+}
+</code></pre>
+</div>
+
+</section>
 <section id="slide-orgheadline6">
-<h2 id="orgheadline6">I am not such a person</h2>
+<h3 id="orgheadline6">English as Tool</h3>
+<div class="org-src-container">
+
+<pre><code class="swift" >let task = YourBoss.throw(you)
+task.doneWith(english)
+</code></pre>
+</div>
 
 </section>
-</section>
-<section>
-<section id="slide-orgheadline12">
-<h2 id="orgheadline12">Then, How can I deal with English Environment?</h2>
-<div class="outline-text-2" id="text-orgheadline12">
-</div></section>
 <section id="slide-orgheadline7">
-<h3 id="orgheadline7">English as second language</h3>
-<ul>
-<li>English is second language for a lot of people.</li>
+<h3 id="orgheadline7">Goal Oriented</h3>
+<div class="org-src-container">
 
-</ul>
+<pre><code class="swift" >english.perfect =&gt; false
+</code></pre>
+</div>
 
 </section>
 <section id="slide-orgheadline8">
-<h3 id="orgheadline8">getting used to English-ish things</h3>
+<h3 id="orgheadline8">Be patient</h3>
 <ul>
-<li>come to the office and listen to the sound around.</li>
+<li>It takes some time to get 'break-through' moment.</li>
+<li>you aren't cheating.</li>
 
 </ul>
+
+</section>
+<section>
+
+<div class="org-src-container">
+
+<pre><code class="swift" >lazy var ready
+</code></pre>
+</div>
 
 </section>
 <section id="slide-orgheadline9">
-<h3 id="orgheadline9">goal oriented</h3>
-<ul>
-<li>don't have to be perfectionist</li>
-<li>learn English to reach your business goal</li>
+<h3 id="orgheadline9">In the 4256th hit Interview</h3>
+<blockquote nil>
+<p>
+もっと言えば、日本だけでピート・ローズの記録を抜くことがおそらく一番難しい記録だと思うので、これを誰かにやってほしい。
+</p>
+</blockquote>
 
-</ul>
-
-</section>
-<section id="slide-orgheadline10">
-<h3 id="orgheadline10">English as Tool</h3>
-<ul>
-<li>use English to get things done</li>
-<li>bridge between me and non-english native speakers</li>
-
-</ul>
+<p>
+by Ichiro
+</p>
 
 </section>
+</section>
+<section>
 <section id="slide-orgheadline11">
-<h3 id="orgheadline11">Don't be biased</h3>
-<ul>
-<li>forget rumors about global company that you've ever heard.</li>
+<h2 id="orgheadline11">bridge between you and me</h2>
+<div class="org-src-container">
 
-</ul>
+<pre><code class="swift" >let person = Develper(with:"Swift" lang:"EN")
+person.connect(you)
+
+func connect(person: Developer) -&gt; Bool {
+   if self.lang == person.lang {
+       return true
+   }
+
+   return false
+}
+</code></pre>
+</div>
 
 </section>
 </section>
 <section>
 <section id="slide-orgheadline13">
-<h2 id="orgheadline13">Thanks for your listening!</h2>
+<h2 id="orgheadline13">Acquiring English skill is still great deal.</h2>
+<div class="outline-text-2" id="text-orgheadline13">
+</div></section>
+<section id="slide-orgheadline12">
+<h3 id="orgheadline12">Wherever we work.</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline14">
+<h2 id="orgheadline14">Keep learning together!</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline15">
+<h2 id="orgheadline15">Thanks for your listening!</h2>
 </section>
 </section>
 </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -150,7 +218,7 @@ controls: true,
 progress: true,
 history: false,
 center: true,
-slideNumber: true,
+slideNumber: 'c',
 rollingLinks: false,
 keyboard: true,
 overview: true,
@@ -166,11 +234,7 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
 });
 </script>
 </body>

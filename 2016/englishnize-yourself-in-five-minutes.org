@@ -1,62 +1,112 @@
 #+TITLE: Englishnize yourself in five minutes
 #+AUTHOR: Yusuke Ohashi
 #+EMAIL: Rakuten, Inc.
-#+REVEAL_THEME: black
-#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/
+#+REVEAL_THEME: blood
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/
 #+REVEAL_TRANS: linear
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_EXTRA_CSS: ../css/modification.css
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
+* Hello
+
+[[http://jp.rakuten-static.com/1/bu/corp/global/im/news/rakuten-logo-global.jpg]]
+
+#+attr_html: :width 280px
+https://pbs.twimg.com/profile_images/473550724433858560/tuHsaI2U_400x400.png
+
 * Agenda
 
-- What I learned from my 1-year experience in the englishnized company
+#+BEGIN_SRC swift
+let you = Developer(with:"Swift", lang:"JP")
+#+END_SRC
+
+↓
+#+BEGIN_SRC swift
+let you = Developer(with:"Swift", lang:"EN")
+#+END_SRC
 
 * Things in common that fluent English speakers have
 
-** Study abroad experiences
-
-- This looks kind of cheating
-- Best way to acquire language skill
-
-** Environment
-
-#+BEGIN_QUOTE
-どこで差がついたのか。慢心、環境の違い、、
-#+END_QUOTE
-
-** Being Talented
-
-*Just...*
-
-- listening to Music
-- watching English news shows
-- watching Youtube
-- ...
+#+BEGIN_SRC swift
+enum FluentEnglishSpeakerType: String {
+    case studyAbroad = "rich"
+    case environment = "どこで差がついたのか(略"
+    case talented = "cheating"
+}
+#+END_SRC
 
 * I am not such a person
 
 * Then, How can I deal with English Environment?
 
-** English as second language
+#+BEGIN_SRC swift
+let english = you.language
+#+END_SRC
 
-- English is second language for a lot of people.
+** English as Second Language
 
-** getting used to English-ish things
-
-- come to the office and listen to the sound around.
-
-** goal oriented
-
-- don't have to be perfectionist
-- learn English to reach your business goal
+#+BEGIN_SRC swift
+switch (english.firstLanguage) {
+    case japanese
+    case chinese
+    case thai
+    case korean
+    default:
+}
+#+END_SRC
 
 ** English as Tool
 
-- use English to get things done 
-- bridge between me and non-english native speakers
+#+BEGIN_SRC swift
+let task = YourBoss.throw(you)
+task.doneWith(english)
+#+END_SRC
 
-** Don't be biased
+** Goal Oriented
 
-- forget rumors about global company that you've ever heard.
+#+BEGIN_SRC swift
+english.perfect => false
+#+END_SRC
 
+** Be patient
+
+- It takes some time to get 'break-through' moment.
+- you aren't cheating.
+
+#+REVEAL: split
+
+#+BEGIN_SRC swift
+lazy var ready
+#+END_SRC
+
+** In the 4256th hit Interview
+
+#+BEGIN_QUOTE
+もっと言えば、日本だけでピート・ローズの記録を抜くことがおそらく一番難しい記録だと思うので、これを誰かにやってほしい。
+#+END_QUOTE
+
+by Ichiro
+
+* bridge between you and me
+
+#+BEGIN_SRC swift
+let person = Develper(with:"Swift" lang:"EN")
+person.connect(you)
+
+func connect(person: Developer) -> Bool {
+   if self.lang == person.lang {
+       return true
+   }
+
+   return false
+}
+#+END_SRC
+
+* Acquiring English skill is still great deal.
+
+** Wherever we work.
+
+* Keep learning together!
 * Thanks for your listening!
