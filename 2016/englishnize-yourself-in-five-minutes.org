@@ -8,6 +8,7 @@
 #+REVEAL_EXTRA_CSS: ../css/modification.css
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
+#+OPTIONS: \n:t
 
 * Hello
 
@@ -27,7 +28,12 @@ let you = Developer(with:"Swift", lang:"JP")
 let you = Developer(with:"Swift", lang:"EN")
 #+END_SRC
 
-* Things in common that fluent English speakers have
+#+REVEAL: split
+What Non English Native speaker
+learned
+in the Englishnized Company.
+
+* Why are they fluent in English?
 
 #+BEGIN_SRC swift
 enum FluentEnglishSpeakerType: String {
@@ -72,8 +78,8 @@ english.perfect => false
 
 ** Be patient
 
-- It takes some time to get 'break-through' moment.
-- you aren't cheating.
+- It takes some time to get break-through moment.
+- It needs hard and regular work.
 
 #+REVEAL: split
 
@@ -81,7 +87,8 @@ english.perfect => false
 lazy var ready
 #+END_SRC
 
-** In the 4256th hit Interview
+* It's more like...
+* In the 4257th hit Interview
 
 #+BEGIN_QUOTE
 もっと言えば、日本だけでピート・ローズの記録を抜くことがおそらく一番難しい記録だと思うので、これを誰かにやってほしい。
@@ -89,6 +96,8 @@ lazy var ready
 
 by Ichiro
 
+* Learning English in Japan is the hard way
+* But
 * bridge between you and me
 
 #+BEGIN_SRC swift
@@ -104,9 +113,16 @@ func connect(person: Developer) -> Bool {
 }
 #+END_SRC
 
-* Acquiring English skill is still great deal.
+* In the world
+
+- There are many developers out there, who use English as second language.
+
+* Acquire English skill, and you get more
+
+It is still great deal.
 
 ** Wherever we work.
 
 * Keep learning together!
+
 * Thanks for your listening!
