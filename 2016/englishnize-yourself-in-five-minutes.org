@@ -76,6 +76,13 @@ task.doneWith(english)
 english.perfect => false
 #+END_SRC
 
+sometimes...
+
+#+BEGIN_SRC swift
+english.allowsJapanese = true
+english.allowsChinese = true
+#+END_SRC
+
 ** Be patient
 
 - It takes some time to get break-through moment.
