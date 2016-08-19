@@ -54,11 +54,12 @@ let english = you.language
 ** English as Second Language
 
 #+BEGIN_SRC swift
-switch (english.firstLanguage) {
-    case japanese
-    case chinese
-    case thai
-    case korean
+switch (you.firstLanguage) {
+    case japanese:
+    case chinese:
+    case thai:
+    case korean:
+    case english:
     default:
 }
 #+END_SRC
@@ -66,35 +67,40 @@ switch (english.firstLanguage) {
 ** English as Tool
 
 #+BEGIN_SRC swift
-let task = YourBoss.throw(you)
-task.doneWith(english)
+let task = YourBoss.throw(to:you)
+task.done(with:english)
 #+END_SRC
 
-** Goal Oriented
+** Be Goal Oriented
 
 #+BEGIN_SRC swift
 english.perfect => false
 #+END_SRC
+
+#+REVEAL: split
 
 sometimes...
 
 #+BEGIN_SRC swift
 english.allowsJapanese = true
 english.allowsChinese = true
+...
 #+END_SRC
 
-** Be patient
+** English Nickname
 
-- It takes some time to get break-through moment.
-- It needs hard and regular work.
+- I'm Mike さん
 
-#+REVEAL: split
+#+BEGIN_SRC swift
+print(me.nickname) => "Mike"
+#+END_SRC
+
+* Learning English in Japan is the hard way
 
 #+BEGIN_SRC swift
 lazy var ready
 #+END_SRC
 
-* It's more like...
 * In the 4257th hit Interview
 
 #+BEGIN_QUOTE
@@ -103,32 +109,46 @@ lazy var ready
 
 by Ichiro
 
-* Learning English in Japan is the hard way
 * But
-* bridge between you and me
-
-#+BEGIN_SRC swift
-let person = Develper(with:"Swift" lang:"EN")
-person.connect(you)
-
-func connect(person: Developer) -> Bool {
-   if self.lang == person.lang {
-       return true
-   }
-
-   return false
-}
-#+END_SRC
 
 * In the world
 
-- There are many developers out there, who use English as second language.
+- many developers out there, who use English as second language.
+- many companies englishnized.
+
+# * How to acquire talented persons
+
+# *in japanese-friendly way*
+
+# - write job description in English
+# - add "Native Japanese Speaker" to requisites 
+
+# * I never tried that though.
+
+# * bridge between you and me
+
+# #+BEGIN_SRC swift
+# let person = Develper(with:"Swift" lang:"EN")
+# person.connect(you)
+
+# func connect(person: Developer) -> Bool {
+#    if self.lang == person.lang {
+#        return true
+#    }
+
+#    return false
+# }
+# #+END_SRC
 
 * Acquire English skill, and you get more
 
 It is still great deal.
 
 ** Wherever we work.
+
+* don't hate it
+
+* take it easy
 
 * Keep learning together!
 
