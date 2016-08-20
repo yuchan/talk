@@ -28,10 +28,16 @@ let you = Developer(with:"Swift", lang:"JP")
 let you = Developer(with:"Swift", lang:"EN")
 #+END_SRC
 
-#+REVEAL: split
-What Non English Native speaker
-learned
-in the Englishnized Company.
+** What Non English Native speaker learned in the Englishnized Company.
+
+** English Nickname
+
+- I'm Mike さん
+
+#+BEGIN_SRC swift
+print(me.nickname) => "Mike"
+#+END_SRC
+
 
 * Why are they fluent in English?
 
@@ -85,14 +91,6 @@ sometimes...
 english.allowsJapanese = true
 english.allowsChinese = true
 ...
-#+END_SRC
-
-** English Nickname
-
-- I'm Mike さん
-
-#+BEGIN_SRC swift
-print(me.nickname) => "Mike"
 #+END_SRC
 
 * Learning English in Japan is the hard way
@@ -153,3 +151,5 @@ It is still great deal.
 * Keep learning together!
 
 * Thanks for your listening!
+
+@iMickx
