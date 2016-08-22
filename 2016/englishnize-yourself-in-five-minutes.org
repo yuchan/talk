@@ -28,16 +28,15 @@ let you = Developer(with:"Swift", lang:"JP")
 let you = Developer(with:"Swift", lang:"EN")
 #+END_SRC
 
-** What Non English Native speaker learned in the Englishnized Company.
+** What Non Native English speaker learned in an Englishnized Company.
 
 ** English Nickname
-
-- I'm Mike さん
 
 #+BEGIN_SRC swift
 print(me.nickname) => "Mike"
 #+END_SRC
 
+** I'm Mike さん
 
 * Why are they fluent in English?
 
@@ -51,7 +50,7 @@ enum FluentEnglishSpeakerType: String {
 
 * I am not such a person
 
-* Then, How can I deal with English Environment?
+* Then, How can I deal with English?
 
 #+BEGIN_SRC swift
 let english = you.language
@@ -85,6 +84,8 @@ english.perfect => false
 
 #+REVEAL: split
 
+** Don't hesitate to use
+
 sometimes...
 
 #+BEGIN_SRC swift
@@ -93,7 +94,7 @@ english.allowsChinese = true
 ...
 #+END_SRC
 
-* Learning English in Japan is the hard way
+* Learning English in Japan is tough
 
 #+BEGIN_SRC swift
 lazy var ready
@@ -108,7 +109,6 @@ lazy var ready
 by Ichiro
 
 * But
-
 * In the world
 
 - many developers out there, who use English as second language.
@@ -145,9 +145,7 @@ It is still great deal.
 ** Wherever we work.
 
 * don't hate it
-
 * take it easy
-
 * Keep learning together!
 
 * Thanks for your listening!
